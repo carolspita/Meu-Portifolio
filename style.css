@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family= Press+Start+2P & display=swap família = Coustard &');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,#00008B, #0000FF);
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
