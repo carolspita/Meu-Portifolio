@@ -35,6 +35,10 @@ body{
     
 }
 
+.cabecalho-menu-item:hover{
+    background-color: rgba(236,214,196,0.5);
+}
+
 .conteudo{
     margin-bottom: 48px;
     border-top: 0.4px solid white;
@@ -80,6 +84,10 @@ body{
     color:black;
 }
 
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236,214,196,0.5);
+}
+
 .conteudo-principal-imagem{
     height: 460px;
     padding: 10px;
@@ -115,9 +123,6 @@ body{
     display:flex;
     flex-direction: row;
     align-items: center;
-    
-    
-
 }
 
 .rodape-texto{
