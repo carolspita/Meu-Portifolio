@@ -173,11 +173,12 @@ img{
     }
 
     .conteudo-principal-escrito-titulo{
-        font-size:23px;
+        font-size:20px;
+        padding: 20px;
     } 
 
     .conteudo-principal-img{
-        width: 50%;
+        width: 40%;
     }
     
 
