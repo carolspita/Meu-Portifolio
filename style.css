@@ -165,11 +165,12 @@ img{
     }
 
     .cabecalho-menu{
-        gap:11px
+        gap:10px
     }
 
     .cabecalho-menu-item{
         font-size: 10px;
+        
     }
 
     .conteudo-principal-escrito-titulo{
