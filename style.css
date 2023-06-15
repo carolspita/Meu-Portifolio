@@ -154,14 +154,22 @@ img{
    height: 48px; 
    display:block;
    margin: 0 auto;
-
-   
 }
 
 /* Mobile */
-@media (max-width:450px){
+@media (max-width:375px){
 
-    .cabecalho{
-        width:800px;}
+    .cabecalho {
+        width:375px;
+    }
+
+    .cabecalho-menu{
+        gap:11px
+    }
+
+    .cabecalho-menu-item{
+        font-size: 10px;
+    }
+
 
 }
