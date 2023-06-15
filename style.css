@@ -106,8 +106,8 @@ img{
     background-color: rgba(236,214,196,0.5);
 }
 
-.conteudo-principal-imagem{
-    height: 460px;
+.conteudo-principal-img{
+    width: 100%;
     padding: 10px;
 }
 
@@ -176,9 +176,8 @@ img{
         font-size:23px;
     } 
 
-    img{
-        width: 10%;
-        
+    .conteudo-principal-img{
+        width: 50%;
     }
     
 
