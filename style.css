@@ -161,6 +161,7 @@ img{
 
     .cabecalho {
         width:375px;
+        padding:25px;
     }
 
     .cabecalho-menu{
@@ -170,6 +171,8 @@ img{
     .cabecalho-menu-item{
         font-size: 10px;
     }
+
+    
 
 
 }
