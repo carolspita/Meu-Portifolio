@@ -14,11 +14,11 @@ body{
     background: black;
 }
 
-header{
+/* header{
     min-width:280px;
-    max-width: 800px;
+    max-width: 2560px;
     margin:auto;
-}
+} */
 
 main{
     min-width:280px;
@@ -29,6 +29,8 @@ main{
 img{
     width: 100%;
 }
+
+
 
 .cabecalho{
     display:flex;
