@@ -157,3 +157,11 @@ img{
 
    
 }
+
+/* Mobile */
+@media (max-width:450px){
+
+    .cabecalho{
+        width:800px;}
+
+}
