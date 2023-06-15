@@ -162,6 +162,7 @@ img{
     .cabecalho {
         width:375px;
         padding:25px;
+        align-items: center;
     }
 
     .cabecalho-menu{
