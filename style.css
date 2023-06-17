@@ -135,6 +135,38 @@ img{
     color:white;
 }
 
+.conteudo-terciario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-terciario-titulo{
+    border-top: 0.4px solid white;
+    padding-top:48px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    font-size:50px;
+    color:white;
+}
+.conteudo-quaternario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-quaternario-titulo{
+    border-top: 0.4px solid white;
+    padding-top:48px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    font-size:50px;
+    color:white;
+}
+
 .rodape{
     padding:32px;
     border-top: 0.4px solid white;
@@ -206,6 +238,14 @@ img{
     .conteudo-secundario-paragrafo{
         font-size: 19px;
         margin-left: 28px;
+    }
+
+    .conteudo-terciario-titulo{
+        font-size:25px;
+    }
+
+    .conteudo-quaternario-titulo{
+        font-size: 25px;
     }
     
 
