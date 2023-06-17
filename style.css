@@ -188,9 +188,14 @@ img{
         margin-left: 28px;
     }
 
+    .conteudo-principal-escrito-subtitulo{
+        font-size:19px;
+        margin-left:28px;
+    }
+
     .conteudo-principal-img{
-        width: 48%;
-        margin-top: -140px;
+        width: 45%;
+        margin-top: -10px;
         margin-left: -50px;
     }
     
