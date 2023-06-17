@@ -198,6 +198,15 @@ img{
         margin-top: -10px;
         margin-left: -50px;
     }
+
+    .conteudo-secundario-titulo{
+        font-size: 25px;
+    }
+
+    .conteudo-secundario-paragrafo{
+        font-size: 19px;
+        margin-left: 28px;
+    }
     
 
     
