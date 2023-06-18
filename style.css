@@ -154,7 +154,7 @@ img{
     display:flex;
     width:1150px;
     padding: 20px;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -275,6 +275,10 @@ img{
 
     .conteudo-terciario-titulo{
         font-size:25px;
+    }
+    .conteudo-terciario-container{
+        width:200px;
+        padding: 20px;
     }
 
     .conteudo-quaternario-titulo{
