@@ -14,11 +14,11 @@ body{
     background: black;
 }
 
-/* header{
+header{
     min-width:280px;
     max-width: 2560px;
     margin:auto;
-} */
+}
 
 main{
     min-width:280px;
@@ -29,8 +29,6 @@ main{
 img{
     width: 100%;
 }
-
-
 
 .cabecalho{
     display:flex;
@@ -89,7 +87,7 @@ img{
     color:white;
 }
 
-.conteudo-principal-escrito-botao{
+/* .conteudo-principal-escrito-botao{
     background-color: #ecd6c4;
     width:200px;
     height: 60px;
@@ -104,7 +102,7 @@ img{
 
 .conteudo-principal-escrito-botao:hover{
     background-color: rgba(236,214,196,0.5);
-}
+} */
 
 .conteudo-principal-img{
     width: 100%;
@@ -151,6 +149,13 @@ img{
     font-size:50px;
     color:white;
 }
+
+.conteudo-terciario-container{
+    display:flex;
+    width:1150px;
+    padding: 20px;
+}
+
 .conteudo-quaternario{
     display: flex;
     flex-direction: column;
