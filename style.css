@@ -232,7 +232,7 @@ img{
 }
 .img-projeto{
     width: 250px;
-    height: 150px;
+    height: 120px;
     border-radius:50%;
     margin-top: 0px;
 }
@@ -243,12 +243,19 @@ img{
  .conteudo-quaternario-container-card-texto-titulo{
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 0px;
     font-size: 18px;
     font-family:'Press Start 2P', cursive ;
     position:relative;
  }
  .conteudo-quaternario-container-card-texto-paragrafo{
     color:white;
+ }
+ #read_button{
+    border: none;
+    padding:10px;
+    margin-top: 10px;
+    
  }
 
  
