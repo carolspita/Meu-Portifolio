@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sarala&display=swap');
+
+/* font-family: 'Press Start 2P', cursive;
+font-family: 'Sarala', sans-serif; */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: black;
+}
+
+header{
+    min-width:280px;
+    max-width: 2560px;
+    margin:auto;
+}
+
+main{
+    min-width:280px;
+    max-width: 800px;
+    margin:auto;
+}
+
+img{
+    width: 100%;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap:32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    font-size:18px;
+    
+}
+
+.cabecalho-menu-item:hover{
+    background-color: rgba(236,214,196,0.5);
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.conteudo-principal-escrito{
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    font-size:60px;
+    color:white;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    color:white;
+}
+
+/* .conteudo-principal-escrito-botao{
+    background-color: #ecd6c4;
+    width:200px;
+    height: 60px;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0.25);
+    border-radius:20px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    font-size:24px;
+    color:black;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236,214,196,0.5);
+} */
+
+.conteudo-principal-img{
+    width: 100%;
+    padding: 10px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid white;
+    padding-top:48px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    font-size:50px;
+    color:white;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+}
+
+.conteudo-terciario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-terciario-titulo{
+    border-top: 0.4px solid white;
+    padding-top:48px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    font-size:50px;
+    color:white;
+}
+
+.conteudo-terciario-container{
+    display:flex;
+    width:1150px;
+    padding: 20px;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteudo-terciario-container-card{
+    position:relative;
+    padding:10px;
+    width:300px;
+    background-color:black ;
+    margin:20px;
+    border:1px solid rgb(131, 131, 131);
+    border-radius:20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.conteudo-terciario-container-card:hover{
+    background-color:white;
+    color: white;
+    margin-top:-30px;
+    box-shadow:2px 20px 25px white;
+    border-color:white;
+}
+
+.conteudo-terciario-conteiner-card-img{
+    transition: 0.5s;
+}
+
+.conteudo-quaternario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-quaternario-titulo{
+    border-top: 0.4px solid white;
+    padding-top:48px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    font-size:50px;
+    color:white;
+}
+
+.conteudo-quaternario-container{
+    display:flex;
+    justify-content:center;
+}
+.conteudo-quaternario-container-card{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 300px;;
+    height: 270px;
+    padding:25px;
+    border-radius:15px;
+    margin-top:20px;
+    background-color: rgb(58, 57, 57);
+    /* box-shadow:5px 5px 10px rgba(255, 255, 255, 0.389); */
+    position: relative;
+}
+/* .conteudo-quaternario-container-card::before{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    border: 20px solid transparent;
+    border-top:20px solid;
+} jaja apagar*/
+.conteudo-quaternario-container-card-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.img-projeto{
+    width: 250px;
+    height: 120px;
+    border-radius:50%;
+    margin-top: 0px;
+}
+ .conteudo-quaternario-container-card-texto{
+    height: 30px;
+    overflow: hidden;
+ }
+ .conteudo-quaternario-container-card-texto-titulo{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-family:'Press Start 2P', cursive ;
+    position:relative;
+    color: white;
+ }
+ .conteudo-quaternario-container-card-texto-paragrafo{
+    color:white;
+ }
+ #read_button{
+    border: none;
+    padding:10px;
+    margin-top: 10px;
+    border-radius:20px;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    cursor:pointer;
+    font-size:16px;
+    font-family:'Sarala', sans-serif;
+    transition: all 0.2s ease-in-out;   
+ }
+ #read_button:hover{
+    background: transparent;
+    color: rgb(250, 253, 255);
+    transition: all 0.2s ease-in-out;
+ }
+
+ 
+
+
+
+.rodape{
+    padding:32px;
+    border-top: 0.4px solid white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape-texto{
+    font-family: 'Sarala', sans-serif;
+    display:block;
+    height: 48px;
+    color:white;
+}
+
+.rodape-link-imagem{
+   height: 48px; 
+   display:block;
+   margin: 0 auto;
+}
+
+/* Mobile */
+@media (max-width:667px){
+
+    .cabecalho {
+        width:410px;
+        padding:25px;
+        align-items: center;
+    }
+
+    .cabecalho-menu{
+        gap:10px
+    }
+
+    .cabecalho-menu-item{
+        font-size: 10px;
+    }
+
+    .conteudo-principal-escrito-titulo{
+        
+        font-size:25px;
+        padding: 20px;
+        margin-left: 115px;
+    } 
+
+    .conteudo-principal-escrito-nome{
+        font-family: 'Press Start 2P', cursive;
+        color:white;
+        font-size: 24px;
+        margin-top: 12px;
+        margin-left: 28px;
+    }
+
+    .conteudo-principal-escrito-subtitulo{
+        font-size:19px;
+        margin-left:28px;
+    }
+
+    .conteudo-principal-img{
+        width: 45%;
+        margin-top: -10px;
+        margin-left: -50px;
+    }
+
+    .conteudo-secundario-titulo{
+        font-size: 25px;
+    }
+
+    .conteudo-secundario-paragrafo{
+        font-size: 19px;
+        margin-left: 28px;
+    }
+
+    .conteudo-terciario-titulo{
+        font-size:25px;
+    }
+
+    .conteudo-terciario-container{
+        width:400px;
+    }
+    
+    .conteudo-terciario-container-card{   
+        padding:10px;
+        margin:5px;
+        width:110px;
+    }
+
+    .conteudo-quaternario-titulo{
+        font-size: 25px;
+    }
+
+    
+    
+
+    
+
+
+}
