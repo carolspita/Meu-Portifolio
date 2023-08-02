@@ -270,16 +270,21 @@ img{
 
 } 
 
+
+
 footer {
-    width:100%;
-    color:var(--color-neutral-40);
-    display: flex;
+    display:flex;
+    flex-direction:row;
     align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    color:aliceblue;
+    
     
 }
 
 .footer_copyright{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     background-color: var(--color-neutral-0);
