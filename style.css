@@ -198,6 +198,7 @@ img{
     border-radius:15px;
     margin-top:20px;
     margin: 10px;
+    border:1px solid rgb(131, 131, 131);
     background-color: rgb(58, 57, 57);
     position: relative;
 }
@@ -232,7 +233,7 @@ img{
  .conteudo-quaternario-container-card-icon{
     display:flex;
     flex-direction: center;
-    width: 84px;;
+    width: 84px;
     height: 500px;   
  }
  
@@ -241,9 +242,11 @@ img{
     padding:32px;
     border-top: 0.4px solid white;
     display:flex;
-    flex-direction: row;
+    flex-direction: center;
     align-items: center;
+    
 }
+
 
 .rodape-texto{
     font-family: 'Sarala', sans-serif;
@@ -328,13 +331,8 @@ img{
         font-size: 25px;
     }
 
-    .conteudo-quaternario-container-card{
-        width: 167px;
-    }
-    .conteudo-quaternario-container-card-texto-titulo{
-        font-size: 9px;
-        
-    }
+    
+    
 
     
 
