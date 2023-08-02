@@ -203,6 +203,7 @@ img{
 .conteudo-quaternario-container{
     display:flex;
     justify-content:center;
+    flex-wrap: wrap;
 }
 .conteudo-quaternario-container-card{
     display:flex;
