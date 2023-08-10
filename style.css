@@ -80,6 +80,28 @@ img{
     color:white;
 }
 
+.conteudo-principal-escrito-nome{
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-left: 28px;
+    border-right: 2px solid white;
+}
+
+.typing-animation{
+    animation: blinkCursor 500ms infinite normal;
+}
+
+@keyframes blinkCursor{
+    from{
+        border-right-color:white;
+    }
+    to{
+        border-right-color:transparent;
+    }
+}
+
 .conteudo-principal-escrito-subtitulo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
