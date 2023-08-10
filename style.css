@@ -4,30 +4,36 @@
 font-family: 'Sarala', sans-serif; */
 
 *{
-    margin: 0;
-    padding:0;
+    margin: 0px;
+    padding:0px;
     box-sizing: border-box;
     text-decoration: none;
 }
 body{
     font-size: 100%;
     background: black;
+    margin: 0;
+    padding:0;
 }
 
 header{
     min-width:280px;
     max-width: 2560px;
-    margin:auto;
+    margin:0;
+    padding:0;
 }
 
 main{
-    min-width:280px;
-    max-width: 800px;
-    margin:auto;
+    
+    margin:0;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    
 }
 
 img{
-    width: 100%;
+    width: 0%;
 }
 
 .cabecalho{
@@ -90,7 +96,16 @@ img{
 }
 
 .typing-animation{
-    animation: blinkCursor 500ms infinite normal;
+    animation: blinkCursor 500ms infinite normal, typing 4s 1s;
+}
+
+@keyframes typing{
+    from{
+        width:0;
+    }
+    to{
+        width:18em;
+    }
 }
 
 @keyframes blinkCursor{
