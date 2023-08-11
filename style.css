@@ -347,10 +347,9 @@ font-size: 30px;
     }
 
     .conteudo-principal-img{
-       position: fixed;
-        width: 25%;
-        margin-top: -150px;
-        margin-left: 200px;
+        width: 30%;
+        margin-top: -125px;
+        margin-left:-300px;
     }
 
     .conteudo-secundario-titulo{
