@@ -85,7 +85,7 @@ img{
     font-size:60px;
     color:white;
 }
-
+/* Animação da apresentação */
 .conteudo-principal-escrito-nome{
     font-family: 'Press Start 2P', cursive;
     color:white;
@@ -96,9 +96,7 @@ img{
 }
 
 .typing-animation{
-    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal;
-    
-
+    animation: blinkCursor 500ms steps(40)infinite normal, typing 4s steps(40) 1s normal both;
 }
 
 @keyframes typing{
@@ -106,7 +104,7 @@ img{
         width:0;
     }
     to{
-        width:18em;
+        width:21em;
     }
 }
 
@@ -118,6 +116,8 @@ img{
         border-right-color:transparent;
     }
 }
+
+/* Fim de Animação da apresentação */
 
 .conteudo-principal-escrito-subtitulo{
     font-family: 'Sarala', sans-serif;
@@ -329,26 +329,24 @@ font-size: 30px;
     .conteudo-principal-escrito-titulo{
         
         font-size:25px;
-        padding: 20px;
-        margin-left: 115px;
+        
+        
     } 
 
     .conteudo-principal-escrito-nome{
         font-family: 'Press Start 2P', cursive;
         color:white;
-        font-size: 24px;
-        margin-top: 12px;
-        margin-left: 28px;
+        font-size: 10px;
     }
 
     .conteudo-principal-escrito-subtitulo{
         font-size:19px;
-        margin-left:28px;
+
     }
 
     .conteudo-principal-img{
-        width: 45%;
-        margin-top: -10px;
+        width: 40%;
+        margin-top: -80px;
         margin-left: -50px;
     }
 
