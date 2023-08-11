@@ -68,7 +68,7 @@ img{
 
 .conteudo-principal{
     display:flex;
-    flex-direction: row;
+    
     align-items:center;
     justify-content:space-around;
 }
@@ -328,13 +328,16 @@ font-size: 30px;
 
     
 .conteudo-principal{
+    display:flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     gap:20px;
 }
     .conteudo-principal-escrito-titulo{
         font-size:25px;
-         
+        justify-content: center;
+        align-items: center;
     } 
 
     .conteudo-principal-escrito-nome{
@@ -350,6 +353,7 @@ font-size: 30px;
 
     .conteudo-principal-img{
         width: 80%;
+        margin-top: -40px;
     }
 
     .conteudo-secundario-titulo{
@@ -362,7 +366,7 @@ font-size: 30px;
             width:0;
         }
         to{
-            width:25em;
+            width:24em;
         }
     }
 
