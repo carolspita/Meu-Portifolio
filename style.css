@@ -334,6 +334,11 @@ font-size: 30px;
     justify-content: center;
     gap:20px;
 }
+
+.conteudo-principal-escrito{
+    display:flex;
+    align-items: center;
+}
     .conteudo-principal-escrito-titulo{
         font-size:25px;
         justify-content: center;
@@ -343,7 +348,7 @@ font-size: 30px;
     .conteudo-principal-escrito-nome{
         font-family: 'Press Start 2P', cursive;
         color:white;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .conteudo-principal-escrito-subtitulo{
