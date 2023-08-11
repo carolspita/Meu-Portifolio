@@ -104,7 +104,7 @@ img{
         width:0;
     }
     to{
-        width:21em;
+        width:22em;
     }
 }
 
@@ -330,6 +330,7 @@ font-size: 30px;
 .conteudo-principal{
     align-items: center;
     flex-direction: column;
+    gap:20px;
 }
     .conteudo-principal-escrito-titulo{
         font-size:25px;
@@ -347,14 +348,13 @@ font-size: 30px;
 
     }
 
-    /* .conteudo-principal-img{
-        width: 30%;
-        margin-top: -125px;
-        margin-left:-300px;
-    } */
+    .conteudo-principal-img{
+        width: 80%;
+    }
 
     .conteudo-secundario-titulo{
         font-size: 25px;
+        align-items: center; 
     }
 
     .conteudo-secundario-paragrafo{
