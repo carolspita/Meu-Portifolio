@@ -349,6 +349,8 @@ font-size: 30px;
         font-family: 'Press Start 2P', cursive;
         color:white;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
     }
 
     .conteudo-principal-escrito-subtitulo{
