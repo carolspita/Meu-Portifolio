@@ -326,6 +326,11 @@ font-size: 30px;
         font-size: 10px;
     }
 
+    .main{
+        margin: 0;
+        padding: 0;
+    }
+
     .conteudo-principal-escrito-titulo{
         
         font-size:25px;
