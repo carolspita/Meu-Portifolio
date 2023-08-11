@@ -327,12 +327,13 @@ font-size: 30px;
     }
 
     
-
+.conteudo-principal{
+    align-items: center;
+    flex-direction: column;
+}
     .conteudo-principal-escrito-titulo{
         font-size:25px;
-        
-        
-        
+         
     } 
 
     .conteudo-principal-escrito-nome{
