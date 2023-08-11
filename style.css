@@ -104,7 +104,7 @@ img{
         width:0;
     }
     to{
-        width:22em;
+        width:21em;
     }
 }
 
@@ -354,7 +354,16 @@ font-size: 30px;
 
     .conteudo-secundario-titulo{
         font-size: 25px;
-        align-items: center; 
+        align-items: center;
+    }
+
+    @keyframes typing{
+        from{
+            width:0;
+        }
+        to{
+            width:25em;
+        }
     }
 
     .conteudo-secundario-paragrafo{
