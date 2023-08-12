@@ -451,7 +451,7 @@ font-size: 30px;
         
     }
     .conteudo-quaternario-container{
-        grid-auto-columns: calc((50% / 1) - 12px);
+        grid-auto-columns: calc((100% / 1) - 12px);
     }
     .conteudo-quaternario-titulo{
         font-size: 25px;
