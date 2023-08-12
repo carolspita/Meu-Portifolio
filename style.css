@@ -216,6 +216,7 @@ img{
 }
 
 
+
 .conteudo-quaternario-container i{
     height: 50px;
     width: 50px;
@@ -251,6 +252,7 @@ img{
     grid-auto-columns: calc((100% / 3) - 12px);
     gap:16px;
     overflow: hidden;
+    width: 1300px;
 }
 
 
@@ -441,14 +443,14 @@ font-size: 30px;
         font-size:25px;
     }
 
-    .conteudo-terciario-container{
-        width:400px;
+    .conteudo-quaternario-container{
+        width: 300px;
     }
     
     .conteudo-terciario-container-card{   
         padding:10px;
         margin:5px;
-        
+        width:110px;
     }
     .conteudo-quaternario-container{
         grid-auto-columns: calc((100% / 1) - 12px);
