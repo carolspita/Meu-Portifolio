@@ -260,7 +260,7 @@ img{
 .conteudo-quaternario-container-card{
     height: 342px;
     list-style: none;
-    background: #ffff;
+    background-color: rgb(58, 57, 57);
     border-radius: 8px;
     display:flex;
     cursor:pointer;
