@@ -443,8 +443,8 @@ font-size: 30px;
         font-size:25px;
     }
 
-    .conteudo-quaternario-container{
-        width: 300px;
+    .conteudo-terciario-container{
+        width:400px;
     }
     
     .conteudo-terciario-container-card{   
@@ -454,6 +454,7 @@ font-size: 30px;
     }
     .conteudo-quaternario-container{
         grid-auto-columns: calc((100% / 1) - 12px);
+        width: 300px;
     }
     .conteudo-quaternario-titulo{
         font-size: 25px;
