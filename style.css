@@ -230,7 +230,7 @@ img{
     cursor:pointer;
     position: absolute;
     top:50%;
-    font-size: 2rem;
+    font-size: 2.25rem;
     transform: translateY(-50%);
     box-shadow: black;
 }
@@ -297,9 +297,9 @@ img{
     position: relative;
 } */
 
-.conteudo-quaternario-container input{
+/* .conteudo-quaternario-container input{
     display:none;
-}
+} */
 
 .conteudo-quaternario-container-card-img{
     display: flex;
@@ -454,10 +454,13 @@ font-size: 30px;
         margin:5px;
         width:110px;
     }
-
+    .conteudo-quaternario-container{
+        grid-auto-columns: calc((100% / 1) - 12px);
+    }
     .conteudo-quaternario-titulo{
         font-size: 25px;
     }
+    
 
     
     
