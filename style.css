@@ -226,7 +226,7 @@ img{
     border-radius: 50%;
     cursor:pointer;
     position: absolute;
-    top:50%;
+    top:60%;
     font-size: 2.25rem;
     transform: translateY(-50%);
     box-shadow: black;
@@ -235,7 +235,7 @@ img{
     left:-22px;
 }
 .conteudo-quaternario i:last-child{
-    right:-22px;
+    right:-21px;
 }
 .conteudo-quaternario-titulo{
     border-top: 0.4px solid white;
@@ -254,13 +254,17 @@ img{
     overflow: hidden;
     width: 1300px;
 }
+.conteudo-quaternario-container.dragging .conteudo-quaternario-container-card{
+    cursor:grab;
+    user-select: none;
+}
 
 
 
 .conteudo-quaternario-container-card{
     height: 342px;
     list-style: none;
-    background-color: rgb(58, 57, 57);
+    background-color:white;
     border-radius: 8px;
     display:flex;
     cursor:pointer;
@@ -318,7 +322,7 @@ img{
     font-size: 18px;
     font-family:'Press Start 2P', cursive ;
     position:relative;
-    color: white;
+    color: black;
  }
  .conteudo-quaternario-container-card-texto-paragrafo{
     color:white;
