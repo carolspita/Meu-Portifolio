@@ -1,6 +1,15 @@
 const carrossel = document.querySelector(".conteudo-quaternario-container");
+const arrowsBtns = document.querySelectorAll(".conteudo-quaternario-container i");
+const firstCardWidth = carrossel.querySelector(".conteudo-quaternario-container-card").offsetWidth;
 
 let isDragging = false, startX, startScrollLeft;
+
+// Add event listeners for the arrow buttons to the scroll the carrossel left and rigth   
+arrowsBtns.forEach(btn =>{
+    btn.addEventListener("click", () => {
+        carrossel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
+    });
+});
 
 const dragStart = (e) => {
     isDragging = true;
