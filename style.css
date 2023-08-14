@@ -253,6 +253,7 @@ img{
     gap:16px;
     overflow: hidden;
     width: 1300px;
+    scroll-behavior: smooth;
 }
 .conteudo-quaternario-container.dragging .conteudo-quaternario-container-card{
     cursor:grab;
