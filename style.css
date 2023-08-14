@@ -257,6 +257,9 @@ img{
     scroll-behavior: smooth;
     scrollbar-width: 0;
 }
+.conteudo-quaternario-container::-webkit-scrollbar{
+    display:none;
+}
 
 .conteudo-quaternario-container.dragging {
     scroll-behavior: auto;
@@ -270,6 +273,7 @@ img{
 
 
 .conteudo-quaternario-container-card{
+    scroll-snap-align:start;
     height: 342px;
     list-style: none;
     background-color:white;
