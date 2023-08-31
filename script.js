@@ -3,7 +3,7 @@ const arrowBtns = document.querySelectorAll(".conteudo-projeto i");
 const firstCardWidth = carrossel.querySelector(".card").offsetWidth; 
 const carrosselChildrens = [...carrossel.children];
 
-let isDragging = false, startX, startScrollLeft;
+let isDragging = false, startX, startScrollLeft, timeoutId;
 
 //Get the number of cards that can fit in the carrossel at once
 let cardPerView = Math.round(carrossel.offsetWidth / firstCardWidth);
@@ -44,6 +44,28 @@ const dragStop = () =>{
     carrossel.classList.remove("dragging");
 }
 
+const autoPlay = () =>{
+    if(window.innerWidth < 800) return; //return if window is smaller tham 800
+    //Autoplay the carrossel after every 2500 ms
+    timeoutId = setTimeout(() => carrossel.scrollLeft += firstCardWidth, 2500);
+}
+autoPlay();
+
+
+const infiniteScroll = () => {
+    if(carrossel.scrollLeft === 0) {
+        carrossel.classList.add("no-transition");
+        carrossel.scrollLeft = carrossel.scrollWidth - (2 * carrossel.offsetWidth);
+        carrossel.classList.remove("no-transition");
+    } else if(Math.ceil(carrossel.scrollLeft) === carrossel.scrollWidth - carrossel.offsetWidth){
+        carrossel.classList.add("no-transition");
+        carrossel.scrollLeft = carrossel.offsetWidth;
+        carrossel.classList.remove("no-transition");
+    } 
+
+}
+
 carrossel.addEventListener("mousedown", dragStart);
 carrossel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
+carrossel.addEventListener("scroll", infiniteScroll);
