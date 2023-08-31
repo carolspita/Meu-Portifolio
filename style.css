@@ -264,6 +264,7 @@ img{
 
 .carrossel.dragging{
     scroll-behavior: auto;
+    scroll-snap-type: none;
 }
 
 .carrossel.dragging .card{
