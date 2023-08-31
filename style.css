@@ -262,6 +262,10 @@ img{
     display: none;
 }
 
+.carrossel.no-transition{
+    scroll-behavior: auto;
+}
+
 .carrossel.dragging{
     scroll-behavior: auto;
     scroll-snap-type: none;
