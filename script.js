@@ -1,15 +1,28 @@
 const carrossel = document.querySelector(".carrossel");
 const arrowBtns = document.querySelectorAll(".conteudo-projeto i");
 const firstCardWidth = carrossel.querySelector(".card").offsetWidth; 
-
+const carrosselChildrens = [...carrossel.children];
 
 let isDragging = false, startX, startScrollLeft;
+
+//Get the number of cards that can fit in the carrossel at once
+let cardPerView = Math.round(carrossel.offsetWidth / firstCardWidth);
+
+//insert copies of the last few cards to beginning of carrossel for infinite scrolling
+carrosselChildrens.slice(-cardPerView).reverse().forEach (card => {
+    carrossel.insertAdjacentHTML("afterbegin", card.outerHTML);
+});
+
+//insert copies of the first few cards to end of carrossel for infinite scrolling
+carrosselChildrens.slice(0, cardPerView).forEach (card => {
+    carrossel.insertAdjacentHTML("beforeend", card.outerHTML);
+});
 
 //Add event listeners for the arrow buttons to scroll the carrossel left and rigth
 arrowBtns.forEach(btn =>{
     btn.addEventListener("click", () =>{
         carrossel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth
-    })
+    });
 });
 
 const dragStart = (e) =>{
