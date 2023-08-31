@@ -252,10 +252,27 @@ img{
     grid-auto-flow: column;
     grid-auto-columns: calc((100% / 3) - 12px);
     gap:16px;
-    overflow: hidden;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.carrossel::-webkit-scrollbar{
+    display: none;
+}
+
+.carrossel.dragging{
+    scroll-behavior: auto;
+}
+
+.carrossel.dragging .card{
+    cursor:grab;
+    user-select: none;
 }
 
 .carrossel .card{
+    scroll-snap-align: start;
     height: 342px;
     list-style: none;
     background: #fff;
@@ -408,6 +425,10 @@ font-size: 30px;
         padding:10px;
         margin:5px;
         width:110px;
+    }
+
+    .conteudo-projeto-titulo{
+        font-size: 25px;
     }
     
     .conteudo-projeto .carrossel{
