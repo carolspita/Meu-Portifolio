@@ -1,3 +1,4 @@
+const conteudoProjeto = document.querySelector(".conteudo-projeto")
 const carrossel = document.querySelector(".carrossel");
 const arrowBtns = document.querySelectorAll(".conteudo-projeto i");
 const firstCardWidth = carrossel.querySelector(".card").offsetWidth; 
@@ -62,10 +63,15 @@ const infiniteScroll = () => {
         carrossel.scrollLeft = carrossel.offsetWidth;
         carrossel.classList.remove("no-transition");
     } 
+    // Clear existing timeout e start autoplay if mouseis not hovering over carrossel.
+    clearTimeout(timeoutId);
+    if(!conteudoProjeto.matches(":hover")) autoPlay();
 
 }
 
 carrossel.addEventListener("mousedown", dragStart);
 carrossel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
+carrossel.addEventListener("scroll", infiniteScroll);
+conteudoProjeto.addEventListener("mouseenter", () =>clearTimeout(timeoutId));
 carrossel.addEventListener("scroll", infiniteScroll);
