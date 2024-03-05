@@ -224,91 +224,16 @@ img{
     color:white;
 }
 
-.conteudo-projeto i {
-    height: 50px;
-    width: 50px;
-    background: #fff;
+.conteudo-projeto-card-escondido{
+    background:grey;
+    color:white;
+    padding: 15px;
     text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    font-size: 1.25rem;
-    top: 60%;
-    transform:translateY(-50%);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    display:none;
 }
 
-.conteudo-projeto i:first-child{
-    left: -40px;
-}
-
-.conteudo-projeto i:last-child{
-    right: -35px;
-}
-
-.conteudo-projeto .carrossel{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
-    gap:16px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: 0;
-}
-
-.carrossel::-webkit-scrollbar{
-    display: none;
-}
-
-.carrossel.no-transition{
-    scroll-behavior: auto;
-}
-
-.carrossel.dragging{
-    scroll-behavior: auto;
-    scroll-snap-type: none;
-}
-
-.carrossel.dragging .card{
-    cursor:grab;
-    user-select: none;
-}
-
-.carrossel .card{
-    scroll-snap-align: start;
-    height: 342px;
-    list-style: none;
-    background: #fff;
-    border-radius: 8px;
-    display: flex;
-    cursor: pointer;
-    padding-bottom: 15px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.card .img img{
-    width: 140px;
-    height: 110px;
-    object-fit: cover;
-    border-radius: 50%;
-
-}
-
-.card h2{
-    font-weight: 500;
-    font-size: 1.56rem;
-    margin: 30px 0 5px;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.card span{
-    color:#6a6d78;
-    font-size: 1.31rem;
-    font-family: 'Sarala', sans-serif;
+button#show-or-hiden{
+    color: white;
 }
 
 
