@@ -1,5 +1,5 @@
 var btn = document.querySelector('#show-or-hiden');
-var container = document.querySelector('.conteudo-projeto-card-escondido');
+var container = document.querySelector('.conteudo-projeto-escondido');
 
 btn.addEventListener('click', function(){
     if(container.style.display === 'block' ){
