@@ -182,6 +182,7 @@ img{
 }
 
 .conteudo-terciario-container-card{
+    
     position:relative;
     padding:10px;
     width:300px;
@@ -222,6 +223,26 @@ img{
     font-weight:400;
     font-size:50px;
     color:white;
+}
+
+.conteudo-projeto-container{
+    display:flex;
+    width:1150px;
+    padding: 20px;
+    gap: 100px;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.conteudo-projeto-card{
+    background:grey;
+    color:white;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    
 }
 
 .conteudo-projeto-card-escondido{
