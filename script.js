@@ -1,4 +1,4 @@
-var btn = document.querySelector('#show-or-hiden');
+var btn = document.querySelector ('#show-or-hiden');
 var container = document.querySelector('.container-escondido');
 
 btn.addEventListener('click', function(){
