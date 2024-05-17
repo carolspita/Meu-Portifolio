@@ -225,19 +225,6 @@ img{
     color:white;
 }
 
-.container-escondido{
-    display: flex;
-    background: grey;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-
-}
-.card-escondido{
-    padding: 90px;
-    
-}
-
 
 
 :root{
