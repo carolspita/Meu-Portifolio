@@ -225,45 +225,19 @@ img{
     color:white;
 }
 
-.conteudo-projeto-container{
-    display:flex;
-    width:1150px;
-    padding: 20px;
-    gap: 10px;
-    align-items:center;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
+.container-escondido{
+    display: flex;
+    background: grey;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
 
-.conteudo-projeto-card{
-    background:grey;
-    color:white;
+}
+.card-escondido{
     padding: 90px;
-    text-align: center;
-    position: none;
     
 }
 
-.conteudo-projeto-escondido{
-    position: relative;
-    background:grey;
-    color:white;
-    display:none;
-    
-}
-.conteudo-projeto-card-escondido{
-    display:flex;
-    padding: 90px;
-    gap: 10px;
-    align-items:center;
-    position: relative;
-    
-}
-
-button#show-or-hiden{
-    color: white;
-}
 
 
 :root{
