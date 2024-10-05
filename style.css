@@ -427,12 +427,19 @@ font-size: 30px;
         width:110px;
     }
 
+    /* .conteudo-projeto{
+        display:flex;
+        flex-direction: column;
+    } */
+
     .conteudo-projeto-titulo{
         font-size: 25px;
     }
     
     .card-wrapper{
         margin:0 10px 25px;
+        width: 300px;
+        
     }
     .card-wrapper .swiper-slide-button{
         display:none;
