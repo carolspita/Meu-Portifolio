@@ -438,7 +438,8 @@ font-size: 30px;
     
     .card-wrapper{
         margin:0 10px 25px;
-        width: 320px;
+        width: 315px;
+        padding: 10px;
         
     }
     .card-wrapper .swiper-slide-button{
