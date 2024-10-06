@@ -24,6 +24,9 @@ header{
     padding:0;
 }
 
+.cabecalho-menu{
+    position: fixed;
+}
 main{
     
     margin:0;
