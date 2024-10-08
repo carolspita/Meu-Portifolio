@@ -383,7 +383,7 @@ font-size: 30px;
 @media (max-width:667px){
 
     header{
-        min-width:500px;
+        min-width:0px;
         
         
     }
@@ -399,7 +399,7 @@ font-size: 30px;
     }
 
     .cabecalho-menu-item{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     
