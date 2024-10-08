@@ -193,7 +193,7 @@ img{
 .conteudo-terciario-container-card{
     position:flex;
     padding:10px;
-    width:300px;
+    width:150px;
     background-color:black ;
     margin:20px;
     border:1px solid rgb(131, 131, 131);
@@ -235,7 +235,7 @@ img{
 
 .container-swiper{
     display: flex;
-    position: flex;
+    position: relative;
 }
 
 .card-wrapper{
@@ -244,7 +244,7 @@ img{
     margin: 0 60px 35px;
     padding: 20px 10px;
     overflow: hidden;
-    position: flex;
+    position: relative;
 
 }
 
@@ -383,7 +383,8 @@ font-size: 30px;
 @media (max-width:667px){
 
     header{
-        min-width:0px;
+      display: flex;
+      position: flex;
         
         
     }
@@ -469,7 +470,7 @@ font-size: 30px;
     .conteudo-terciario-container-card{   
         padding:10px;
         margin:5px;
-        width:110px;
+        width:80px;
     }
 
     .conteudo-projeto-titulo{
