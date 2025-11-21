@@ -21,6 +21,7 @@
     <!-- ----------------------- -->
     <link rel = "stylesheet" type="text/css" href = "style.css">
     <script src="/script.js" defer ></script>
+    
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -30,7 +31,14 @@
             <a href="#formacao" class = "cabecalho-menu-item">FORMAÇÃO</a>
             <a href="#skills" class = "cabecalho-menu-item">SKILLS</a>
             <a href="#projetos" class = "cabecalho-menu-item">PROJETOS</a>
-            
+            <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.153.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.153.0/examples/jsm/"
+        }
+    }
+    </script>
         </nav>
     </header>
     <!-- Fim do cabeçalho -->
@@ -83,7 +91,7 @@
                         <img src = "img/New_Power_BI_Logo.svg.png">    
                     </div>
                 </div> 
-                              
+                            
             </div>
         </section>
         <section id="projetos"  class="conteudo-projeto">
@@ -277,6 +285,7 @@
     </footer>
     <!-- Fim do Rodape -->
     <!-- Link pro javasacript -->
+    <script type="module" src="/main.js"></script>
     
 </body>
 </html>
