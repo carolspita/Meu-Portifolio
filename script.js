@@ -1,30 +1,22 @@
-// new Swiper('.card-wrapper', {
-//     loop: true,
-//     spaceBetween:30,
-  
-//     // Pagination bullets
-//     pagination: {
-//       el: '.swiper-pagination',
-//       clickacle:true,
-//       dynamicBullets:true
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-// //responsive breakpoints
-//     breakpoints:{
-//         0:{
-//             slidesPerView: 1
-//         },
-//         768:{
-//             slidesPerView: 2
-//         },
-//         1024:{
-//             slidesPerView: 3
-//         },
-//     }
+document.addEventListener("DOMContentLoaded", function () {
+  new Swiper('.card-wrapper', { 
+    loop: true,
+    spaceBetween: 10, // 👈 menor espaço possível sem quebrar
 
-//   });
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+      0: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
+    }
+  });
+});
